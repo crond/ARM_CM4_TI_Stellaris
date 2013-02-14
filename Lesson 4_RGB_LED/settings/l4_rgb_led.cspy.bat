@@ -19,6 +19,6 @@
 @REM 
 
 
-"F:\software\Intalled\IAR\common\bin\cspybat" "F:\software\Intalled\IAR\arm\bin\armproc.dll" "F:\software\Intalled\IAR\arm\bin\armlmiftdi.dll"  %1 --plugin "F:\software\Intalled\IAR\arm\bin\armbat.dll" --flash_loader "F:\software\Intalled\IAR\arm\config\flashloader\TexasInstruments\FlashLM4FxxxHxx.board" --backend -B "--endian=little" "--cpu=Cortex-M4F" "--fpu=VFPv4" "-p" "F:\software\Intalled\IAR\arm\CONFIG\debugger\TexasInstruments\LM4F120H5QR.ddf" "--drv_verify_download" "--semihosting" "--device=LM4F120H5QR" "--lmiftdi_speed=500" 
+"F:\software\Intalled\IAR\common\bin\cspybat" "F:\software\Intalled\IAR\arm\bin\armproc.dll" "F:\software\Intalled\IAR\arm\bin\armlmiftdi.dll"  %1 --plugin "F:\software\Intalled\IAR\arm\bin\armbat.dll" --backend -B "--endian=little" "--cpu=Cortex-M4F" "--fpu=VFPv4" "-p" "F:\software\Intalled\IAR\arm\CONFIG\debugger\TexasInstruments\LM4F120H5QR.ddf" "--drv_verify_download" "--semihosting" "--device=LM4F120H5QR" "--lmiftdi_speed=500" 
 
 
