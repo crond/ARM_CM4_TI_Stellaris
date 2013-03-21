@@ -33,13 +33,23 @@ int main()
   while(1)
   {
     *((unsigned int*)0x400253fcu) = 0x02u;
-    delay();
+  //  delay();
+    int counter=0;
+    while(counter < 1000000)
+      counter++;
     
-    *((unsigned int*)0x400253fcu) = 0x00u;
-   delay();
+     *((unsigned int*)0x400253fcu) = 0x00u;
+   // delay();
+     counter = 0;
+    while(counter < 1000000)
+      counter++;
+    
+#if 0  
+    
+   
     
      *((unsigned int*)0x400253fcu) = 0x04u;
-    delay();
+   delay();
     *((unsigned int*)0x400253fcu) = 0x00u;
     delay();
     
@@ -48,6 +58,7 @@ int main()
    delay();
     *((unsigned int*)0x400253fcu) = 0x00u;
     delay();
+#endif
   }
   return 0;
 }

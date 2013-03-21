@@ -11,7 +11,7 @@ ByteLimit=50
 [LMIFTDIDriver]
 LMI_ResetMode=0x00000001
 [DebugChecksum]
-Checksum=2028616996
+Checksum=-159788703
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -33,9 +33,8 @@ GraphEnabled=0
 ShowTimeLog=1
 ShowTimeSum=1
 [Breakpoints2]
-Bp0=_ 0 "STD_CODE2" "{$PROJ_DIR$\main.c}.9.3" 0 0 1 "" 0 ""
-Bp1=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.61.5" 0 0 1 "" 0 ""
-Count=2
+Bp0=_ 1 "STD_CODE2" "{$PROJ_DIR$\main.c}.13.5" 0 0 1 "" 0 ""
+Count=1
 [Interrupts]
 Enabled=1
 [MemoryMap]
